@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">TP1-Exo3-Java</string>
+    <string name="nom">Nom</string>
+    <string name="prenom">Prénom</string>
+    <string name="age">Age</string>
+    <string name="domaine">Domaine</string>
+    <string name="tel">Numéro de téléphone</string>
+    <string name="bouton">Envoyer</string>
+</resources>

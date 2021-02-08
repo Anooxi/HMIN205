@@ -1,0 +1,16 @@
+package fr.maximereiter.td1_exo3;
+
+import androidx.appcompat.app.AppCompatActivity;
+
+import android.os.Bundle;
+
+public class MainActivity extends AppCompatActivity {
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        //setContentView(R.layout.activity_main); // Layout 1
+        //setContentView(R.layout.layout2);
+        setContentView(R.layout.layout3);
+    }
+}

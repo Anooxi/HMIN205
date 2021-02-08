@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/saTel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="16dp"
+        android:gravity="center"
+        android:text="@string/placeholder"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.941"
+        app:layout_constraintStart_toEndOf="@+id/saTelBase"
+        app:layout_constraintTop_toBottomOf="@+id/saDomaine" />
+
+    <TextView
+        android:id="@+id/saTelBase"
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="40dp"
+        android:gravity="center"
+        android:labelFor="@id/saDomaine"
+        android:text="@string/numerotel"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toBottomOf="@+id/saTel"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/saDomaineBase" />
+
+    <!-- DOMAINE DE COMPETENCE N°4 -->
+
+    <TextView
+        android:id="@+id/saDomaineBase"
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="40dp"
+        android:gravity="center"
+        android:labelFor="@id/saDomaine"
+        android:text="@string/domaine"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toBottomOf="@+id/saDomaine"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/saAgeBase" />
+
+    <!-- AGE N°3 -->
+    <TextView
+        android:id="@+id/saDomaine"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="44dp"
+        android:layout_marginEnd="16dp"
+        android:gravity="center"
+        android:text="@string/placeholder"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.895"
+        app:layout_constraintStart_toEndOf="@+id/saDomaineBase"
+        app:layout_constraintTop_toBottomOf="@+id/saAge" />
+
+    <TextView
+        android:id="@+id/saAgeBase"
+        android:layout_width="111dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="40dp"
+        android:gravity="center"
+        android:labelFor="@id/saAge"
+        android:text="@string/age"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toBottomOf="@+id/saAge"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/saPrenomBase" />
+
+
+    <!-- PRENOM N°2-->
+    <TextView
+        android:id="@+id/saAge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="44dp"
+        android:layout_marginEnd="16dp"
+        android:gravity="center"
+        android:text="@string/placeholder"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.94"
+        app:layout_constraintStart_toEndOf="@+id/saAgeBase"
+        app:layout_constraintTop_toBottomOf="@+id/saPrenom" />
+
+    <TextView
+        android:id="@+id/saPrenomBase"
+        android:layout_width="111dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="40dp"
+        android:gravity="center"
+        android:labelFor="@id/saPrenom"
+        android:text="@string/prenom"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toBottomOf="@+id/saPrenom"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/saNomBase" />
+
+
+    <!-- NOM N°1 -->
+    <TextView
+        android:id="@+id/saPrenom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="44dp"
+        android:layout_marginEnd="16dp"
+        android:gravity="center"
+        android:text="@string/placeholder"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.933"
+        app:layout_constraintStart_toEndOf="@+id/saPrenomBase"
+        app:layout_constraintTop_toBottomOf="@+id/saNom" />
+
+    <TextView
+        android:id="@+id/saNomBase"
+        android:layout_width="111dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:gravity="center"
+        android:text="@string/nom"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toBottomOf="@+id/saNom"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/saNom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="44dp"
+        android:layout_marginEnd="16dp"
+        android:gravity="center"
+        android:text="@string/placeholder"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.94"
+        app:layout_constraintStart_toEndOf="@+id/saNomBase"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="140dp"
+        android:text="@string/confirm"
+        android:onClick="onClickConfirm"
+        app:layout_constraintEnd_toStartOf="@+id/button3"
+        app:layout_constraintHorizontal_bias="0.206"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/saTelBase" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="160dp"
+        android:layout_marginEnd="44dp"
+        android:text="@string/returna"
+        android:onClick="onClickReturn"
+        app:layout_constraintBottom_toBottomOf="@+id/button2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/saTel" />
+</androidx.constraintlayout.widget.ConstraintLayout>

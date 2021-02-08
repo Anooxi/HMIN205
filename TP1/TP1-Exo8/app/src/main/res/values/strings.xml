@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">TP1-Exo8</string>
+    <string name="depart">Enter starting point</string>
+    <string name="arriver">Enter arrival point</string>
+    <string name="bouton">Search</string>
+</resources>

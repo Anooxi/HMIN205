@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">TP1-Exo8</string>
+    <string name="depart">Entrer votre point de départ</string>
+    <string name="arriver">Entrer votre point d\'arriver</string>
+    <string name="bouton">Recherche</string>
+</resources>

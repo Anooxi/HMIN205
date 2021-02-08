@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">TD1-Exo1</string>
+    <string name="hello">Hello i'm a text view</string>
+</resources>

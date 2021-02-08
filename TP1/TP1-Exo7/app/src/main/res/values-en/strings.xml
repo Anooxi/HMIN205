@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Maxime REITER\'s Application</string>
+    <string name="nom">Last Name</string>
+    <string name="prenom">First Name</string>
+    <string name="age">Age</string>
+    <string name="domaine">Area of expertise</string>
+    <string name="numerotel">Telephone number</string>
+    <string name="button">Send</string>
+    <string name="alertenom">Confirmed</string>
+    <string name="alertecontenu">Data has been sent</string>
+    <string name="oui">Yes</string>
+    <string name="non">No</string>
+    <string name="validate">Do you want to confirm?</string>
+    <string name="valide">Confirm</string>
+    <string name="confirm">Confirm</string>
+    <string name="returna">Return</string>
+    <string name="appel">Phone</string>
+</resources>
