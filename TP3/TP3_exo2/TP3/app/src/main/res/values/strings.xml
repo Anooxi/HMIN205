@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">TP3</string>
+    <string name="text_UserName">Prénom</string>
+    <string name="text_UserLastName">Nom</string>
+    <string name="text_Password">Mot de passe</string>
+    <string name="text_Age">Age</string>
+    <string name="text_Phonenumber">Numéro de téléphone</string>
+    <string name="text_UserId">ph</string>
+    <string name="button_Submit">Envoyer</string>
+    <string name="toast_success">Données bien envoyées</string>
+    <string name="toast_error">Erreur lors de l\'envoie de données</string>
+    <string name="placeholder">ph</string>
+    <string name="toast_error2">Erreur lors de la lecture de données</string>
+</resources>
